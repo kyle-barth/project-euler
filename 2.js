@@ -15,11 +15,6 @@ do {
     i++
 } while (x < num)
 
-// console.log(arrFib
-//     .filter((val) => val % 2 ===0)
-//     .toString()
-// ) // display the array for testing
-
 console.log('Sum: ', arrFib
     .filter((val) => val % 2 ===0)
     .reduce((pv, cv) => pv + cv, 0)

@@ -10,5 +10,4 @@ for (let i = 1; i < x; ++i) {
     }
 }
 
-// console.log('Arr: ', arr.toString()) // display the array for testing
 console.log('Sum: ', arr.reduce((pv, cv) => pv + cv, 0))

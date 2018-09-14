@@ -7,6 +7,6 @@
 
 // es6 is the bomb
 function range1(i){ return i ? range1(i-1).concat(i) : []}
-const num = range1(10)
+const num = range1(100)
 
 console.log(Math.pow(num.reduce((pv, cv) => pv + cv, 0), 2) - num.reduce((pv, cv) => pv + cv * cv, 0))

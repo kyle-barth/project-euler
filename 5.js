@@ -8,7 +8,7 @@ let tmp
 
 do {
     tmp = 0
-    i += 10
+    i += num
     for (let x = 1; x <= num; x++) {
         if (i % x === 0) {
             tmp++
