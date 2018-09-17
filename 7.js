@@ -7,7 +7,6 @@ let arr = [2,3,5,7]
 for (i = 7; arr.length != num; i += 2) {
     if (i % 3 != 0 && i % 5 != 0 && i % 7 != 0 && arr.reduce((rv, cv) => rv = i % cv ? rv : false, true))
         arr.push(i)
-    
 }
 
 console.log(
